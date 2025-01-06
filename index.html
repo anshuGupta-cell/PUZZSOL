@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description">
+
+  <title>PUZZSOL - Image jigsaw puzzle game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
+</head>
+
+<body>
+
+  <main class="container">
+    <section class="puzzle-wrapper">
+      <div class="cells">
+
+      </div>
+      <div class="puzzle">
+
+      </div>
+      <div class="preview">
+
+      </div>
+    </section>
+    <section class="modal">
+      <div class="gameOver">
+        <div class="trophyCont">
+          <img src="" class="wonImg">
+        </div>
+        <div>
+          <h3 class="win-state">You Win</h3>
+        </div>
+        <div>Correct Attempts : <span class="cAtm">5</span></div>
+        <div>Wrong Attempts : <span class="wAtm">5</span></div>
+        <div>
+          <!--<button class="btn">Cancel</button>-->
+          <button class="newGame btn">New Game</button>
+        </div>
+      </div>
+    </section>
+    <section class="alertCont">
+      <div class="info ">
+        <img width="22px" src="svg/information-circle-stroke-rounded.svg" alt="">
+      </div>
+      <div>
+        Please rotate for better experience
+      </div>
+      <div class="close-alert">
+        <img width="18px" src="svg/xmark-regular.svg" alt="">
+      </div>
+    </section>
+    <header>
+      <h1>PUZZSOL</h1>
+    </header>
+    <section class="changeCont">
+      <button class="btn change-img">Change Image</button>
+    </section>
+    <section class="loader ">
+      <svg>
+        <circle cx="30" cy="30" r="30"></circle>
+      </svg>
+    </section>
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
