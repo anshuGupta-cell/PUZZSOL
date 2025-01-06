@@ -42,7 +42,7 @@ body {
 .puzzle div {
   /*border-left: 0.01px dashed #fff;
   border-top: 0.1px dashed #fff;*/
-  box-shadow: 0.1px 0.1px #fff;
+  box-shadow: 0.2px 0.2px #fff;
   width: 8vw;
   height: 6vw;
 
